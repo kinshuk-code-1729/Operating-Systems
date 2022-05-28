@@ -8,7 +8,7 @@
 
 ![image](https://user-images.githubusercontent.com/90320839/170823596-6af712e2-9a9c-4ae4-b5f1-42189a2bd2ca.png)
 
-## 8 types of operating systems used widely over the world 👇👇
+## ⭐ Different types of operating systems 👇👇
 - *Batch Operating System.*
 - *Multitasking/Time Sharing OS.*
 - *Multiprocessing OS.*
