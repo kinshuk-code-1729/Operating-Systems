@@ -16,3 +16,6 @@
 - *Distributed OS.*
 - *Network OS.*
 - *Mobile OS.*
+
+## CPU Scheduling
+**_CPU scheduling_ in OS is a method by which one process is allowed to use the CPU while the other processes are kept on hold or are kept in the waiting state. This hold or waiting state is implemented due to the unavailability of any of the system resources like I/O etc.**
