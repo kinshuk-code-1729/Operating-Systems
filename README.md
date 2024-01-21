@@ -25,6 +25,8 @@
 - **Completion Time in OS:** It is the time at which the selected process completes its execution.
 - **Burst Time in OS:** This is the time required by a process for its execution by the CPU.
 - **Turn Around Time in OS:** Turnaround time for each process is the difference in completion time and the time of arrival of that process. 
+
 **_[ Turn around time = Completion time – Arrival time ]_**
 - **Waiting time in OS:** The waiting time for each and every process is the difference between the turnaround time and burst time of that process.
-**_[Waiting time = Turnaround time – Burst time]._**
+
+**_[ Waiting time = Turnaround time – Burst time ]._**
