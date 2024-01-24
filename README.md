@@ -17,7 +17,7 @@
 - *Network OS.*
 - *Mobile OS.*
 
-## CPU Scheduling
+## ⏳ CPU Scheduling
 **_CPU scheduling_** in OS is a method by which one process is allowed to use the CPU while the other processes are kept on hold or are kept in the waiting state. This hold or waiting state is implemented due to the unavailability of any of the system resources like I/O etc.
 
 ### Important Terms Related to CPU Scheduling in OS
@@ -32,8 +32,8 @@
 **_[ Waiting time = Turnaround time – Burst time ]._**
 
 
-## Criteria for CPU Scheduling in OS
-_There are many different CPU scheduling algorithms and choosing a particular one depends on a number of factors. The following conditions may be considered before selecting the most appropriate CPU scheduling algorithm:_
+## 🤔 Criteria for CPU Scheduling in OS
+_There are many different CPU scheduling algorithms and choosing a particular one depends on a number of factors. The following conditions may be considered before selecting the most appropriate CPU scheduling algorithm :_
 
 - **CPU Utilization :**
 A CPU algorithm must keep a CPU busy to the maximum level. Theoretically, CPUs are considered to be working in the range of 0% to 100%, where 100 is the ideal; but practically, depending on the load the range of CPU usage is 40% to 90%.
