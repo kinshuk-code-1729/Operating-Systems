@@ -57,17 +57,17 @@ _To summarize the effect of the factors listed above, it can be said that for **
 
 ## Different Categories of CPU Scheduling Algorithms
 _The types of scheduling in OS are primarily categorized into two main categories:_
-- _*Preemptive Scheduling*_
-- _*Non-Preemptive Scheduling*_
+- _**Preemptive Scheduling**_
+- _**Non-Preemptive Scheduling**_
 
 ### Preemptive Scheduling
-**Preemptive scheduling** is implemented when a process switches from its *_running state_* to a *_ready state_* or from its *_waiting state_* to the *_ready state_*.
+**Preemptive scheduling** is implemented when a process switches from its **_running state_** to a **_ready state_** or from its **_waiting state_** to the **_ready state_**.
 
-Here the assignment of tasks is often prioritized. If a task has a *higher priority* than the running process, then this process will be interrupted and resumed only after the completion of the task with a higher priority.
+Here the assignment of tasks is often prioritized. If a task has a **higher priority** than the running process, then this process will be interrupted and resumed only after the completion of the task with a higher priority.
 
-At times the cyclic allocation of the CPU takes place. A process is allocated to the CPU for a limited amount of time and then taken away for the next process, while the earlier process is again placed in the *_ready queue_* if the CPU burst time is still left. This process remains in the ready queue till the CPU is allocated again.
+At times the cyclic allocation of the CPU takes place. A process is allocated to the CPU for a limited amount of time and then taken away for the next process, while the earlier process is again placed in the **_ready queue_** if the CPU burst time is still left. This process remains in the ready queue till the CPU is allocated again.
 
 ### Non-Preemptive Scheduling
-**Non-Preemptive scheduling** is used when a process terminates or completes its execution, or when a process switches from its running state to the waiting state.
+**Non-Preemptive scheduling** is used when a process _terminates_ or completes its execution, or when a process switches from its running state to the waiting state.
 
-Here a CPU that has been allocated once to a process is not released until the process has terminated or switched to the waiting state. A running process is not interrupted during its execution, and the next process waits for CPU allocation till the current process completes its CPU burst time.
+Here a CPU that has been allocated once to a process is not released until the process has _**terminated_** or switched to the _**waiting state_**. A running process is not interrupted during its execution, and the next process waits for CPU allocation till the current process completes its CPU burst time.
