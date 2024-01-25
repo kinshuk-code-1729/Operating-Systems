@@ -54,3 +54,20 @@ Load average refers to the average number of processes that are already present 
 Response time is measured as the duration between submission of the process for execution till the time the first response is produced.
 
 _To summarize the effect of the factors listed above, it can be said that for **optimal performance** the **CPU utilization** and **Throughput** be maximized with the minimization of the other factors._
+
+What are the Different Categories of CPU Scheduling Algorithms in OS?
+The types of scheduling in OS are primarily categorized into two main categories:
+
+Preemptive Scheduling
+Non-Preemptive Scheduling
+Preemptive Scheduling
+Preemptive scheduling is implemented when a process switches from its running state to a ready state or from its waiting state to the ready state.
+
+Here the assignment of tasks is often prioritized. If a task has a higher priority than the running process, then this process will be interrupted and resumed only after the completion of the task with a higher priority.
+
+At times the cyclic allocation of the CPU takes place. A process is allocated to the CPU for a limited amount of time and then taken away for the next process, while the earlier process is again placed in the ready queue if the CPU burst time is still left. This process remains in the ready queue till the CPU is allocated again.
+
+Non-Preemptive Scheduling
+Non-Preemptive scheduling is used when a process terminates or completes its execution, or when a process switches from its running state to the waiting state.
+
+Here a CPU that has been allocated once to a process is not released until the process has terminated or switched to the waiting state. A running process is not interrupted during its execution, and the next process waits for CPU allocation till the current process completes its CPU burst time.
