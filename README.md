@@ -70,4 +70,4 @@ At times the cyclic allocation of the CPU takes place. A process is allocated to
 ### Non-Preemptive Scheduling
 **Non-Preemptive scheduling** is used when a process _terminates_ or completes its execution, or when a process switches from its running state to the waiting state.
 
-Here a CPU that has been allocated once to a process is not released until the process has _**terminated_** or switched to the _**waiting state_**. A running process is not interrupted during its execution, and the next process waits for CPU allocation till the current process completes its CPU burst time.
+Here a CPU that has been allocated once to a process is not released until the process has _**terminated**_ or switched to the _**waiting state**_. A running process is not interrupted during its execution, and the next process waits for CPU allocation till the current process completes its CPU burst time.
